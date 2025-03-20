@@ -6,6 +6,7 @@ public class Item {
     private Long id;
     private String name;
     private LocalDate expirationDate;
+    private String lastLocation;
 
     public Long getId() {
         return id;
@@ -29,5 +30,13 @@ public class Item {
 
     public void setExpirationDate(LocalDate expirationDate) {
         this.expirationDate = expirationDate;
+    }
+
+    public String getLastLocation() {
+        return lastLocation;
+    }
+
+    public void setLastLocation(String lastLocation) {
+        this.lastLocation = lastLocation;
     }
 }

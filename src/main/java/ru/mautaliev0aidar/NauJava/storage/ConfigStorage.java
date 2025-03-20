@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Scope;
 import ru.mautaliev0aidar.NauJava.entity.Item;
 
 @Configuration
-public class Config
+public class ConfigStorage
 {
     @Bean
     @Scope (value = BeanDefinition.SCOPE_SINGLETON)
